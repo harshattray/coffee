@@ -1,0 +1,70 @@
+/**
+ * @Author: harsha
+ * @Date:   2018-04-29T18:46:02+05:30
+ * @Last modified by:   harsha
+ * @Last modified time: 2018-04-29T18:46:03+05:30
+ */
+
+
+ body {background-color:#CAF6FC;}
+ .gradient {height:1000px; width:1000px; margin-left:00px;
+   background-image:linear-gradient(to bottom right, #70EAFA, #ABF3FC, #CAF6FC, #FFF);
+   }
+ .container {
+   animation: shake 0.82s infinite cubic-bezier(.36,.07,.19,.97) both;
+   transform: translate3d(0, 0, 0);
+   backface-visibility: hidden;
+   perspective: 1000px;
+ }
+
+ @keyframes shake {
+   10%, 90% {
+     transform: translate3d(-1px, 0, 0);
+   }
+
+   20%, 80% {
+     transform: translate3d(2px, 0, 0);
+   }
+
+   30%, 50%, 70% {
+     transform: translate3d(-4px, 0, 0);
+   }
+
+   40%, 60% {
+     transform: translate3d(4px, 0, 0);
+   }
+ }
+
+ .small-circle {position:absolute; height:20px; width:20px; border-radius:40%; background-color:#FFF; margin-left:430px; margin-top:250px;
+ }
+
+ .smaller-circle{position:absolute; height:10px; width:10px; border-radius:40%; background-color:#FFF; margin-left:450px; margin-top:280px;
+ }
+
+ .yellow-circle {position:absolute; height:100px; width:100px; background-image:radial-gradient(#FFD012, #FFD012, #FFFA55, #F0E927, #FFD012); margin-left:290px; margin-top:300px; border-radius:100%;}
+
+ .white-circle-inner {position:absolute; height:200px; width:150px; background-color:#FFF; margin-left:250px; margin-top:200px; border-radius:40%; transform:rotateZ(45deg);}
+
+ .white-circle-outer {position:absolute; height:150px; width:200px; background-color:#FFF; border-radius:100%; margin-top:300px; margin-left:200px;transform:rotateZ(45deg)
+ }
+
+ .white-circle-middle {position:absolute; height:150px; width:200px; background-color:#FFF; border-radius:100%; margin-top:290px; margin-left:300px;transform:rotateZ(45deg)}
+
+ .black-circle-outer {position:absolute; height:500px; width:500px; background-image:radial-gradient(#7D7879, #000000, #4F3B3B, #000000, #4F3B3B); margin-left:100px; margin-top:100px; border-radius:100%
+
+ }
+
+ .handle-edge {position:absolute; height:60px; width:38px; background-color:#6E2417;margin-left:555px; margin-top:700px; border-radius:40%;transform:rotateZ(150deg); }
+
+ .handle {position:absolute; height:300px; width:50px; background-color:#000000; margin-left:525px; margin-top:540px; border-radius: 30%; transform:rotateZ(150deg);}
+
+ .oil-drop {position:absolute;height:20px;width:20px;background-color:#F5D984; opacity: 0.08;border:1px solid black; border-radius:30%;transform:rotateZ(15deg); margin-left:200px; margin-top:200px;
+ }
+
+
+ .oil {position:absolute;height:250px;width:250px;background-color:#F5D984; opacity: 0.08;border:1px solid black; border-radius:30%;transform:rotateZ(15deg); margin-left:230px; margin-top:200px;}
+
+
+
+
+   
